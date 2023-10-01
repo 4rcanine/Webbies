@@ -1,7 +1,23 @@
-h1 {
-    text-align: center;
+#contactDetails {
+	float: right;
 }
 
-body{
-    background-color: cornflowerblue;
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
 }
