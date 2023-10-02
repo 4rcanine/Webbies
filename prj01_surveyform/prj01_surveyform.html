@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="prj01_surveyform.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Who is your favorite Left 4 Dead Character</h1>
+        <p id="description" class="description text-center">
+            This survey identifies the most picked character based on your preferred character in Left 4 Dead franchise, regardless of whether they are human or infected.
+        </p>
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Age<span class="clue">(optional)</span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="13"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+          />
+        </div>
+        <div class="form-group">
+          <p>Which role do you like playing more?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="student">Human</option>
+            <option value="job">Infected</option>
+            <option value="learner">Observer</option>
+            <option value="preferNo">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Which character do you often prefer to play?</p>
+          <label>
+            <input
+              name="user-recommend"
+              value="Rochelle"
+              type="radio"
+              class="input-radio"
+              checked
+            />Rochelle</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="Nick"
+              type="radio"
+              class="input-radio"
+            />Nick</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="Coach"
+              type="radio"
+              class="input-radio"
+            />Coach</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="Ellis"
+              type="radio"
+              class="input-radio"
+            />Ellis</label
+          >
+
+        <label>
+            <input
+              name="user-recommend"
+              value="Zoey"
+              type="radio"
+              class="input-radio"
+              checked
+            />Zoey</label
+          >
+          <label>
+            <input
+              name="user-recommend"
+              value="Louis"
+              type="radio"
+              class="input-radio"
+            />Louis</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="Francis"
+              type="radio"
+              class="input-radio"
+            />Francis</label
+          >
+
+          <label
+            ><input
+              name="user-recommend"
+              value="Bill"
+              type="radio"
+              class="input-radio"
+            />Bill</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Which Special Infected do you often prefer to play?</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select an option</option>
+            <option value="Hunter">Hunter</option>
+            <option value="Spitter">Spitter</option>
+            <option value="Charger">Charger</option>
+            <option value="Boomer">Boomer</option>
+            <option value="Jockey">Jockey</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            Which maps are your go-to favorites to play on regularly?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="NoMercy"
+              type="checkbox"
+              class="input-checkbox"
+            />No Mercy</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="CrashCourse"
+              type="checkbox"
+              class="input-checkbox"
+            />Crash Course</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="DeathToll"
+              type="checkbox"
+              class="input-checkbox"
+            />Death Toll</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="DeadAir"
+              type="checkbox"
+              class="input-checkbox"
+            />Dead Air</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="BloodHarvest"
+              type="checkbox"
+              class="input-checkbox"
+            />Blood Harvest</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="TheSacrifice"
+              type="checkbox"
+              class="input-checkbox"
+            />The Sacrifice</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="DeadCenter"
+              type="checkbox"
+              class="input-checkbox"
+            />Dead Center</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="ThePassing"
+              type="checkbox"
+              class="input-checkbox"
+            />the Passing</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="DarkCarnival"
+              type="checkbox"
+              class="input-checkbox"
+            />Dark Carnival</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="SwampFever"
+              type="checkbox"
+              class="input-checkbox"
+            />Swamp Fever</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="HardRain"
+              type="checkbox"
+              class="input-checkbox"
+            />Hard Rain</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="TheParish"
+              type="checkbox"
+              class="input-checkbox"
+            />The Parish</label
+          >
+        </div>
+
+        <div class="form-group">
+          <p>Perhaps you played custom maps as well, you might want to suggest it to us?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your custom map suggestion here..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
