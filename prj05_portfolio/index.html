@@ -1,135 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Personal Portfolio Webpage</title>
-</head>
-
-<body>
-  <header id="about">
-    <nav id="navbar">
-      <ul>
-        <li><a href="#about"> Me</a></li>
-        <li><a href="#work"> Projects</a></li>
-        <li><a href="#contact"> Contacts</a></li>
-      </ul>
-    </nav>
-    <div id="welcome-section" class="container">
-      <h1 id="title">Hi, I am Ethan</h1>
-      <p class="lead"><em>a junior web developer</em></p>
-    </div>
-  </header>
-
+  <head>
   
-  <section id="projects">
-    <div class="project-tile">
-      <h1 id="caption">"Here are my projects so far"</h1><br>
-      <div id="bottom-line"></div>
-      <div class="projects">
-        <div class="box">
-          <a target="_blank" href="https://www.l4d.com/comic/">
-            <img src="survey.png" alt="survey" class="survey">
-            <p>
-              <span class="code">&lt;</span>
-              Survey Form
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div class="box">
-          <a target="_blank" href="https://www.l4d.com/comic/" alt="Tribute" class="Tribute">
-            <img src="survey2.png" alt="survey" class="survey">
-            <p>
-              <span class="code">&lt;</span>
-              Tribute page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div class="box">
-          <a target="_blank" href="https://www.l4d.com/comic/">
-            <img src="survey3.png" alt="survey" class="survey">
-            <p>
-              <span class="code">&lt;</span>
-              Technical Documentation Page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div target="_blank" class="box">
-          <a href="https://www.l4d.com/comic/">
-            <img src="survey4.png" alt="survey" class="survey">
-            <p>
-              <span class="code">&lt;</span>
-              Product Page
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        <div target="_blank" class="box">
-          <a href="https://www.l4d.com/comic/">
-            <img src="survey5.png" alt="survey" class="survey">
-            <p>
-              <span class="code">&lt;</span>
-              Pizza ordering system
-              <span class="code">/&gt;</span>
-            </p>
-          </a>
-        </div>
-
-        
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to my Portfolio Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/423f2883f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome-section">
+      <div id="home">
+        <h1 class="lg-heading">
+          <span class="underline-secondary">Ethan Gabriel</span>
+          <span class="underline">Batario</span>
+        </h1>
+        <p class="subtitle">Junior web developer</p>
       </div>
-      <a href="https://www.l4d.com/comic/" class="btn">Show More</a>
-    </div>
-  </section>
+    </section>
+    <section id="projects">
+      <h1><span class="underline underline-secondary">My Past Projects</span></h1>
+      <div class="project-tile">
+        <div class="project">
+          <a
+            href="https://4rcanine.github.io/Survey-Form/"
+            target="_blank"
+          >
+            <img
+              src="survey.png"
+              alt=""
+            />
+            <h2 class="project-title">Survey Form</h2>
+          </a>
+        </div>
+        <div class="project">
+          <a href="https://4rcanine.github.io/tribute-page/" target="_blank">
+            <img
+              src="survey2.png"
+              alt="Preview of the Tribute Page"
+            />
+            <h2 class="project-title">Tribute Page</h2>
+          </a>
+        </div>
+        <div class="project">
+          <a
+            href="https://4rcanine.github.io/technical-document/"
+            target="_blank"
+          >
+            <img
+              src="survey3.png"
+              alt=""
+            />
+            <h2 class="project-title">Documentation Page</h2>
+          </a>
+        </div>
+        <div class="project">
+          <a
+            href="https://4rcanine.github.io/product-page/"
+            target="_blank"
+          >
+            <img
+              src="survey4.png"
+              alt=""
+            />
+            <h2 class="project-title">Product Landing Page</h2>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <section id="exprience">
+      <h1>Experiences</h1>
+      <div class="experience">
+          <div class="item one">
+              <h2>JUNIOR WEB DEVELOPER</h2>
+              <h3><span></span></h3>
+              <p>I know the basic and some advanced topics regarding HTML, CSS and javascript. I know what are the basic things needed to make a website and how it functions.</p>
+          </div>
+          <div class="item two">
+              <h2>Canva Proficiency</h2>
+              <h3><span></span></h3>
+              <p>I know much about making designs in canva and I am pretty sure that it adds to being a competent frontend developer.</p>
+          </div>
+      </div>
+  </section>
   
-  <section id="contact">
-    <div class="container">
-      <h1>Want to work together?</h1>
-      <p>SLide into my DMs and just ask!</p>
+    <section id="contact">
+      <h1 class="lg-heading">
+        <span class="underline-secondary underline">Let's work together</span>
+      </h1>
+      <p>
+        I'm interested in freelance opportunities - Whichever I can use to hone my skills. However, if you have any other request or question, don't
+        hesitate to contact me.
+      </p>
       <div class="social">
-        <div>
-          <a target="_blank" href="https://www.facebook.com/rcaniniftie">
-            <i class="fab fa-facebook fa-1x"></i>
-            Facebook
-          </a>
-          <a id="profile-link" target="_blank" href="https://github.com/4rcanine/Webbies">
-            <i class="fab fa-github fa-1x"></i>
-            Github
-          </a>
-          <a target="_blank" href="https://twitter.com">
-            <i class="fab fa-twitter fa-1x"></i>
-            Twitter
-          </a>
-          <a href="#">
-            <i class="fas fa-envelope-open-text fa-1x"></i>
-            Mail
-          </a>
-          <a href="#">
-            <i class="fas fa-phone fa-1x"></i>
-            Call Me
-          </a>
-        </div>
+        <a href="https://github.com/4rcanine" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/rcaniniftie"
+          id="profile-link"
+          target="_blank"
+          ><i class="fa-brands fa-free-code-camp"></i
+        ></a>
+        <a href="https://www.facebook.com/rcaniniftie" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="ethanbatario@gmail.com" target="_blank"
+          ><i class="fa-solid fa-at"></i
+        ></a>
       </div>
-    </div>
-  </section>
-
-  
-  <footer id="main-footer">
-    <div class="container">
-      <p>&copy; Copyright Free</p>
-      <p id="creator">This site recreated by <a href="">4rcanine</a></p>
-    </div>
-  </footer>
-</body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </section>
+    <footer>
+      <p class="copy">
+        Copyright &copy; 2023 | Created by <em>Ethan Gabriel Batario</em>
+      </p>
+    </footer>
+  </body>
 </html>
